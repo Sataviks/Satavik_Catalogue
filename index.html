@@ -20,6 +20,7 @@ header {
 .product {
   border-bottom: 1px solid #ddd;
   padding: 15px;
+  text-align: center;
 }
 .product img {
   width: 100%;
@@ -39,12 +40,14 @@ header {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #25D366;
-  color: white;
-  padding: 15px 18px;
+  width: 60px;
+  height: 60px;
+  z-index: 1000;
+}
+.whatsapp img {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  font-size: 22px;
-  text-decoration: none;
 }
 </style>
 </head>
@@ -133,8 +136,10 @@ header {
   </div>
 </div>
 
-<!-- WhatsApp Button -->
-<a class="whatsapp" href="https://wa.me/918010955272" target="_blank">💬</a>
+<!-- Floating WhatsApp Button -->
+<a class="whatsapp" href="https://wa.me/918010955272" target="_blank">
+  <img src="images/whatsapp.png" alt="WhatsApp">
+</a>
 
 </body>
 </html>
